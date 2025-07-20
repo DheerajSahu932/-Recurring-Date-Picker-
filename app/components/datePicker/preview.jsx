@@ -1,7 +1,7 @@
 'use client';
 
 import { useRecurrenceStore } from "../../store/recurrenceStore";
-import { generateRecurringDates } from "../../utils/recurrenceUtils";
+import { generateRecurringDates } from "../../../utils/recurrenceUtils";
 import { useMemo } from "react";
 import { format } from "date-fns";
 
